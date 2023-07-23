@@ -1,3 +1,4 @@
+## Hardening
 The importance of securing digital assets has become increasingly crucial as technology continues to advance and integrate into our daily lives.
 While the Linux operating system is known for its security features, it is not 100% secure. 
 Threats like malware, cyber-attacks, and data breaches can have devastating consequences, 
