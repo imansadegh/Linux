@@ -20,3 +20,7 @@ with this command authentication key generation, management and conversion
 $ ssh_keygen
 create public/private key in this location
 /root/.ssh/id rsa
+after that with this command you can copy public_key from server to your host:
+$ ssh -copy-id USER_NAME@IP_ADDRESS
+with this command you can remove all of keys on your host:
+$ rm -fr .ssh/id rsa*
