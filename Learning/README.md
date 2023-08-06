@@ -37,3 +37,6 @@ after that with this command you can copy public_key from server to your host:<b
 $ ssh -copy-id USER_NAME@IP_ADDRESS<br>
 with this command you can remove all of keys on your host:<br>
 $ rm -fr .ssh/id rsa<br>
+
+You can start the SSH daemon in debug mode to get more detailed debugging output. This might help you identify the exact point where the daemon is encountering an issue:<br>
+sudo /usr/sbin/sshd -Dd
